@@ -6,5 +6,4 @@ Also these are protected files for importance of project:
 
 Assets/additionPackages
 
-[![image](https://i.hizliresim.com/PG37X6.png)](https://hizliresim.com/PG37X6)
-[url=https://hizliresim.com/7NWuhZ][img]https://i.hizliresim.com/7NWuhZ.png[/img][/url]
+[![image](https://i.hizliresim.com/7NWuhZ.png)](https://hizliresim.com/7NWuhZ)
