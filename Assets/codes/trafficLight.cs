@@ -28,13 +28,13 @@ public class trafficLight : MonoBehaviour {
 			lights[1].active = true;
 			lights[2].active = false;
 		}
-		else if(i > 555 && i < 1000)
+		else if(i > 555 && i < 1500)
         {
 			lights[0].active = false;
 			lights[1].active = false;
 			lights[2].active = true;
 		}
-		else if(i > 1000)
+		else if(i > 1500)
         {
 			i = 0;
         }
