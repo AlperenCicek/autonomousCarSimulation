@@ -9,10 +9,10 @@ public class CamControl : MonoBehaviour {
     public GameObject rightText;
     // Use this for initialization
     void Start () {
-        rightText.active = true;
-        leftText.active = true;
-        rightCam.active = false;
-        leftCam.active = false;
+        rightText.active = false;
+        leftText.active = false;
+        rightCam.active = true;
+        leftCam.active = true;
 
     }
 	
