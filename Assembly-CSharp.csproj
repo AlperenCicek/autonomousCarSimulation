@@ -46,6 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\SensorController.cs" />
      <Compile Include="Assets\codes\CamControl.cs" />
      <Compile Include="Assets\codes\trafficLight.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
