@@ -23,12 +23,12 @@ public class CamControl : MonoBehaviour {
             if(leftCam.active == true)
             {
                 leftCam.active = false;
-                leftText.active = true;
+				//leftText.active = true;
             }
             else
             {
                 leftCam.active = true;
-                leftText.active = false;
+				//leftText.active = false;
             }
         }
 
@@ -37,12 +37,12 @@ public class CamControl : MonoBehaviour {
             if (rightCam.active == true)
             {
                 rightCam.active = false;
-                rightText.active = true;
+				//rightText.active = true;
             }
             else
             {
                 rightCam.active = true;
-                rightText.active = false;
+                //rightText.active = false;
             }
         }
         /*
