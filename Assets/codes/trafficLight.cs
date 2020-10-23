@@ -51,13 +51,9 @@ public class trafficLight : MonoBehaviour {
 			else if (i > 1500)
 			{
 				i = 0;
-				flag = false;
 			}
 			i++;
 		}
-		
-		
-       
-		
 	}
+
 }

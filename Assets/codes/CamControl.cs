@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CamControl : MonoBehaviour {
-    public GameObject leftCam;
-    public GameObject rightCam;
     public GameObject leftText;
-    public GameObject rightText;
+	public GameObject rightText;
+	public GameObject leftBlock;
+	public GameObject rightBlock;
     // Use this for initialization
     void Start () {
         rightText.active = false;
         leftText.active = false;
-        rightCam.active = true;
-        leftCam.active = true;
+		rightBlock.active = true;
+		leftBlock.active = true;
 
     }
 	
@@ -20,28 +20,28 @@ public class CamControl : MonoBehaviour {
 	void Update () {
         if (Input.GetMouseButtonUp(0))
         {
-            if(leftCam.active == true)
+			if(leftBlock.active == true)
             {
-                leftCam.active = false;
+				leftBlock.active = false;
 				//leftText.active = true;
             }
             else
             {
-                leftCam.active = true;
+				leftBlock.active = true;
 				//leftText.active = false;
             }
         }
 
         if (Input.GetMouseButtonUp(1))
         {
-            if (rightCam.active == true)
+			if (rightBlock.active == true)
             {
-                rightCam.active = false;
+				rightBlock.active = false;
 				//rightText.active = true;
             }
             else
             {
-                rightCam.active = true;
+				rightBlock.active = true;
                 //rightText.active = false;
             }
         }
@@ -51,5 +51,6 @@ public class CamControl : MonoBehaviour {
             Debug.Log("Pressed middle click.");
         }
         */
+
     }
 }
