@@ -8,7 +8,7 @@ Assets/additionPackages
 
 You can watch this Autonomous Car Simulation: https://www.youtube.com/watch?v=FTLTN_zP0Js&t=2s
 
-Also these are some images from Real-Time Tests;
+Also these are some images from Simulation Tests;
 
 
 ![#1](https://github.com/AlperenCicek/autonomousCarSimulation/blob/master/SimImages/Sample1.png)
